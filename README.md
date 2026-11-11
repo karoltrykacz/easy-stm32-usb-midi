@@ -81,7 +81,7 @@ void on_midi_message(uint8_t cable, const MIDI_Message *message);
 Configure MIDI device to your liking using
  ```c USBD_MIDI_InitDescriptors(&hmidi, &usb_midi_cfg);```.
 
-Descriptors must be initialized before midi device to take an effect.
+**Descriptors must be initialized before midi device to take an effect.**
 
 Default descriptors have following values:
 ```c
