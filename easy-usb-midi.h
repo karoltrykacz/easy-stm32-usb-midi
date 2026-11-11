@@ -1,3 +1,8 @@
+/*
+ * SPDX-License-Identifier: GPL-3.0
+ * Copyright (c) 2026 Karol Trykacz
+ */
+
 #pragma once
 
 #include "main.h"
